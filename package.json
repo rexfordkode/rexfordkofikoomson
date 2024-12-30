@@ -1,6 +1,6 @@
 {
     "name": "rexford",
-    "version": "1.2.4",
+    "version": "1.2.5",
     "description": "A simple CLI tool to let you know Rexford's details",
     "type": "module",
     "bin": {
