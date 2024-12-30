@@ -8,15 +8,17 @@ const pkJson = JSON.parse(
 welcome({
   title: "Get to know Rexford Koomson",
   version: pkJson.version,
+  description: pkJson.description,
+  tagLine: `Howdy, nice meeting you here!`,
+  bgColor: `#FADC00`,
+  color: `#000000`,
+  bold: true,
+  clear: true,
 });
 
 console.log(`
-    Name: ${pkJson.name}
-    Version: ${pkJson.version}
-`);
-
-console.log(`
 👋 Hi, I’m Rexford Koomson (@rexfordkode)
+
 🚀 Fullstack Developer | 🧠 AI Integration Enthusiast | 💻 Cloud & Microservices Architect
 
 👀 What I'm Into:
