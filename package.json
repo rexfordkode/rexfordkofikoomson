@@ -15,5 +15,13 @@
         "rexford",
         "rexfordkode",
         "originalrexford"
-    ]
+    ],
+    "license": "MIT",
+    "author": {
+        "name": "Rexford Kofi Koomson",
+        "email": "rexford.kk@gmail.com",
+        "url": "https://x.com/originalrexford"
+    },
+    "main": "index.js",
+    "repository": "rexfordkode/rexford"
 }
