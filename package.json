@@ -1,0 +1,11 @@
+{
+    "name": "rexford",
+    "version": "1.0.0",
+    "bin": {
+        "rexford": "index.js",
+        "rexford-cv": "rexford.md"
+    },
+    "dependencies": {
+        "clear-any-console": "^1.16.2"
+    }
+}
