@@ -1,6 +1,6 @@
 {
     "name": "rexford",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "bin": {
         "rexford": "index.js",
         "rexford-cv": "rexford-cv.js"
