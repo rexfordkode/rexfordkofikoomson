@@ -1,6 +1,4 @@
 #!/usr/bin/env node
-const clearConsole = require("clear-any-console");
-clearConsole();
 
 const cv = {
   name: "Koomson Kofi  Rexford",

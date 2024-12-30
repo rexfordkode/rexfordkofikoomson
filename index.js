@@ -1,7 +1,20 @@
 #!/usr/bin/env node
 
-const clearConsole = require("clear-any-console");
-clearConsole();
+import { readFile } from "fs/promises";
+import welcome from "cli-welcome";
+const pkJson = JSON.parse(
+  await readFile(new URL("./package.json", import.meta.url))
+);
+welcome({
+  title: "Get to know Rexford Koomson",
+  version: pkJson.version,
+});
+
+console.log(`
+    Name: ${pkJson.name}
+    Version: ${pkJson.version}
+`);
+
 console.log(`
 👋 Hi, I’m Rexford Koomson (@rexfordkode)
 🚀 Fullstack Developer | 🧠 AI Integration Enthusiast | 💻 Cloud & Microservices Architect
@@ -14,16 +27,8 @@ Cloud & Infrastructure: Docker, AWS, Microservices, and serverless architectures
 AI Integration: Exploring how to merge AI into modern applications.
 🌱 Currently Learning:
 Advanced Cloud Solutions: Diving deeper into AWS, Docker, and distributed systems, AI Integration.
-
 AI & Machine Learning: Integrating AI with microservices for smarter systems.
 
 💬 Let’s Collaborate On:
 Fullstack projects with NodeJS, NestJS, GraphQL, or RESTful APIs.
-Serverless architectures using AWS Lambda.
-Cutting-edge AI integrations for real-world applications.
-Building efficient microservices and system designs.
-
-📫 Reach Me:
-🐦 Twitter: @originalrexford
-  linkedin: @rexford-kofi-koomson/
 `);

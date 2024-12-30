@@ -1,11 +1,13 @@
 {
     "name": "rexford",
     "version": "1.2.1",
+    "description": "A simple CLI tool to let you know Rexford's details",
+    "type": "module",
     "bin": {
         "rexford": "index.js",
         "rexford-cv": "rexford-cv.js"
     },
     "dependencies": {
-        "clear-any-console": "^1.16.2"
+        "cli-welcome": "^3.0.0"
     }
 }
