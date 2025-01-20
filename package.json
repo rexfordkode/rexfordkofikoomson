@@ -8,6 +8,7 @@
         "rexford-cv": "rexford-cv.js"
     },
     "dependencies": {
+        "chalk": "^5.4.1",
         "cli-welcome": "^3.0.0"
     },
     "keywords": [
@@ -23,5 +24,5 @@
         "url": "https://x.com/originalrexford"
     },
     "main": "index.js",
-    "repository": "rexfordkode/rexford"
+    "repository": "https://github/rexfordkode"
 }

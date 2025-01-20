@@ -10,6 +10,7 @@ To install Rexford CLI, you need to have Node.js installed. Then, run the follow
 npm install -g rexford
 
 npx rexford
+npx rexford-cv
 ```
 
 ## Usage
