@@ -1,28 +1,32 @@
 {
-    "name": "rexford",
-    "version": "1.2.6",
-    "description": "A simple CLI tool to let you know Rexford's details",
-    "type": "module",
-    "bin": {
-        "rexford": "index.js",
-        "rexford-cv": "rexford-cv.js"
-    },
-    "dependencies": {
-        "chalk": "^5.4.1",
-        "cli-welcome": "^3.0.0"
-    },
-    "keywords": [
-        "rexford kofi koomson",
-        "rexford",
-        "rexfordkode",
-        "originalrexford"
-    ],
-    "license": "MIT",
-    "author": {
-        "name": "Rexford Kofi Koomson",
-        "email": "rexford.kk@gmail.com",
-        "url": "https://x.com/originalrexford"
-    },
-    "main": "index.js",
-    "repository": "https://github/rexfordkode"
+  "name": "rexford",
+  "version": "1.3.0",
+  "description": "Interactive CLI profile & portfolio card for Rexford Kofi Koomson",
+  "type": "module",
+  "bin": {
+    "rexford": "index.js",
+    "rexford-cv": "rexford-cv.js"
+  },
+  "keywords": [
+    "rexford kofi koomson",
+    "rexford",
+    "rexfordkode",
+    "originalrexford",
+    "portfolio",
+    "cloud-architect",
+    "software-engineer",
+    "npx-card"
+  ],
+  "homepage": "https://rexfordkofikoomson.me",
+  "license": "MIT",
+  "author": {
+    "name": "Rexford Kofi Koomson",
+    "email": "rexford.kk@gmail.com",
+    "url": "https://rexfordkofikoomson.me"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rexfordkode/rexfordkofikoomson.git"
+  }
 }
